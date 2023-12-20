@@ -1,0 +1,23 @@
+.divButton {
+  width: 200px;
+  padding: 16px 24px;
+  background-color: #6b63ce;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0 8px #4a429a;
+  cursor: pointer;
+
+  transition: all 0.5s;
+}
+
+.divButton:hover {
+  box-shadow: 0 4px #4a429a;
+  transform: translateY(4px);
+}
+
+.divButton:active {
+  box-shadow: 0 0;
+  transform: translateY(8px);
+  background-color: #4a429a;
+}
