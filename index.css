@@ -69,7 +69,7 @@ html {
   background-image: url("/images/home/Cloud.png");
   background-repeat: no-repeat;
   width: 100%;
-  height: 383px;
+  height: 310px;
   margin-top: -70px;
   padding-top: 70px;
 }
@@ -92,4 +92,111 @@ html {
   width: 24px;
   height: 32px;
   margin: 24px auto 0;
+}
+
+.timeline-container {
+  background-color: #f6ebd8;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.timeline-container-wrapper {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  gap: 50px;
+}
+
+.timeline-container-line {
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+.timeline-text {
+  margin-bottom: 32px;
+}
+
+.timeline-line {
+  width: 3px;
+  height: 100px;
+  background-color: #000;
+  margin: auto;
+}
+
+.timeline-container-circle-dash {
+  background-color: #f7d057;
+  border-radius: 100%;
+  border-width: 3px;
+  width: 24px;
+  height: 24px;
+  border-color: #000;
+  border-style: dashed;
+  margin: auto;
+}
+
+.timeline-container-circle {
+  background-color: #f7d057;
+  border-radius: 100%;
+  border-width: 3px;
+  width: 24px;
+  height: 24px;
+  border-color: #000;
+  border-style: solid;
+  margin: auto;
+}
+
+.timeline-element-wrapper {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.timeline-element {
+  background-color: #e17b51;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 8px 8px 0px 0px #000;
+  display: flex;
+  gap: 8px;
+  color: white;
+  width: 352px;
+}
+
+.timeline-element-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.timeline-element-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.headine-s {
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.title-m {
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.body-l {
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
