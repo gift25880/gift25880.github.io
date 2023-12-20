@@ -1,23 +1,95 @@
-.divButton {
-  width: 200px;
-  padding: 16px 24px;
-  background-color: #6b63ce;
-  color: white;
+*,
+body,
+html {
+  width: 100%;
+  margin: 0;
+}
+
+.home-container {
+  width: 100%;
+  height: fit-content;
+  background-color: #fce5cb;
+  background-size: 80px 80px;
+  background-image: linear-gradient(to right, white 1px, transparent 1px),
+    linear-gradient(to bottom, white 1px, transparent 1px);
+}
+
+.home-container-image-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-container-cat-paw-one {
+  width: 528px;
+  height: 212px;
+}
+
+.home-container-welcome-text {
+  font-family: "Shrikhand", serif;
+  color: #e17b51;
+  font-size: 40px;
   text-align: center;
-  border-radius: 25px;
-  box-shadow: 0 8px #4a429a;
-  cursor: pointer;
-
-  transition: all 0.5s;
+  line-height: 58px;
+  margin-top: -110px;
 }
 
-.divButton:hover {
-  box-shadow: 0 4px #4a429a;
-  transform: translateY(4px);
+.home-container-logo-container {
+  display: flex;
+  width: fit-content;
+  margin: auto;
 }
 
-.divButton:active {
-  box-shadow: 0 0;
-  transform: translateY(8px);
-  background-color: #4a429a;
+.home-container-logo {
+  width: 671.82px;
+  height: 372.83px;
+  margin-top: 19.73px;
+  margin-left: -40px;
+}
+
+.home-container-music-image {
+  width: 185.54px;
+  height: 167.86px;
+  margin-left: 80px;
+}
+
+.home-container-cat-image {
+  width: 194.22px;
+  height: 147.25px;
+  margin-top: 22.29px;
+}
+
+.home-container-element-image {
+  width: 261.52px;
+  height: 271.24px;
+  margin-top: 206.43px;
+}
+
+.home-container-footer {
+  background-image: url("/images/home/Cloud.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 383px;
+  margin-top: -70px;
+  padding-top: 70px;
+}
+
+.home-container-button {
+  margin: auto;
+  width: 313px;
+  padding: 12px 24px;
+  color: white;
+  background-color: #e17b51;
+  border-radius: 240px;
+  border: 3px solid #000;
+  box-shadow: 8px 8px 0px 0px #000;
+  font-family: "Shrikhand", serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.home-container-scroll-down {
+  width: 24px;
+  height: 32px;
+  margin: 24px auto 0;
 }
