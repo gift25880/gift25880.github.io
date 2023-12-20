@@ -258,3 +258,85 @@ html {
   font-weight: 400;
   line-height: 24px;
 }
+
+@media screen and (max-width: 768px) {
+  .home-container-cat-paw-one {
+    width: 360px;
+    height: auto;
+  }
+
+  .home-container-welcome-text {
+    margin-top: 0;
+  }
+
+  .home-container-logo {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .home-container-music-image {
+    width: 100px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+
+  .home-container-cat-image {
+    width: 100px;
+    height: auto;
+    margin-top: 22.29px;
+    margin-left: 40px;
+  }
+
+  .home-container-element-image {
+    width: 150px;
+    height: auto;
+    margin-top: 206.43px;
+  }
+
+  .home-container-footer {
+    background-image: url("/images/home/Cloud-1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .home-container-cat-paw-one {
+    width: 190px;
+    height: auto;
+  }
+
+  .home-container-welcome-text {
+    margin-top: 0;
+  }
+
+  .home-container-logo {
+    width: 200px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .home-container-music-image {
+    display: none;
+  }
+
+  .home-container-cat-image {
+    display: none;
+  }
+
+  .home-container-element-image {
+    display: none;
+  }
+
+  .home-container-footer {
+    background-image: url("/images/home/Cloud-1.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 310px;
+  }
+}
